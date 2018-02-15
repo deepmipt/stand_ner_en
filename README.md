@@ -22,13 +22,7 @@
     ```
     pip install -r requirements.txt
     ```
-6. Download NLTK data:
-    ```
-    $ python3
-    >>> import nltk
-    >>> nltk.download('punkt')
-    ```
-7. Specify model endpoint host (`api_host`) and port (`api_port`) in `ner_agent_config.json`
+6. Specify model endpoint host (`api_host`) and port (`api_port`) in `ner_agent_config.json`
 7. Specify virtual environment path (if necessary) in `run_en_ner.sh`
 8. Run model:
     ```
