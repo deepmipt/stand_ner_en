@@ -1,0 +1,26 @@
+{
+	"kpi_name":"kpi3_2",
+    "api_host":"0.0.0.0",
+    "api_port":6006,
+    "api_debug":0,
+	"kpis":
+	{
+		"kpi3_2":
+		{
+			"settings_kpi":
+				{
+					"rest_url":""
+				},
+			"settings_agent":
+				{
+					"model_dir":"model",
+					"model_dowload_url":"http://lnsigo.mipt.ru/export/models/ner/conll_ner.tar.gz",
+					"model_file":"model.ckpt",
+					"dict_file":"dict.txt",
+					"embedding_file":"glove.6B.100d.txt",
+					"update_model":0,
+					"test_tasks_number":5
+				}
+		}
+	}
+}

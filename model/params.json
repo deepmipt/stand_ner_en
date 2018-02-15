@@ -1,0 +1,15 @@
+{
+  "cell_type": "lstm",
+  "char_embeddings_dim": 71,
+  "dense_dropout": true,
+  "embeddings_dropout": true,
+  "n_filters": [
+    192
+  ],
+  "net_type": "rnn",
+  "token_embeddings_dim": 100,
+  "two_dense_layers": true,
+  "use_batch_norm": true,
+  "use_capitalization": true,
+  "use_crf": true
+}
