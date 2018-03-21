@@ -1,7 +1,7 @@
 {
 	"kpi_name":"kpi3_2",
     "api_host":"0.0.0.0",
-    "api_port":6006,
+    "api_port":6011,
     "api_debug":0,
 	"kpis":
 	{
